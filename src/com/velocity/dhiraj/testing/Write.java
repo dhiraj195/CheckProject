@@ -9,6 +9,8 @@ public class Write {
 		list.add("Dhiraj");
 		list.add(259);
 		list.add("Varape");
+		list.remove(0);
+		System.out.println(list);
 
 	}
 
