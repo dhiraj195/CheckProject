@@ -1,6 +1,6 @@
 package com.velocity.dhiraj.testing;
 
-import java.util.Scanner;
+
 
 public class Write {
 	
@@ -13,6 +13,9 @@ public class Write {
 	}
 	void add(float a, float b) {
 		System.out.println("multiplication is" +(a*b) );
+	}
+	void add (int s,int d,int g) {
+		System.out.println("Addition is "+ (s+d+g));
 	}
 	
 	

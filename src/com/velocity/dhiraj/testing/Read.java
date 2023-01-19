@@ -7,6 +7,7 @@ public class Read {
 		w1.add(23,56 );
 		w1.add(34.5, 87.6);
 		w1.add(23, 67);
+		
 
 		System.out.println("All done");
 	}
