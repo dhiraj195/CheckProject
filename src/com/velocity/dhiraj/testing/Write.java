@@ -1,20 +1,21 @@
 package com.velocity.dhiraj.testing;
 
-import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Write {
-
-	public static void main(String[] args) {
-		ArrayList list = new ArrayList();
-		list.add("Dhiraj");
-		list.add(259);
-		list.add("Varape");
-		list.remove(0);
-		list.add(0, "Welcome");
+	
+	void add(int a, int b) {
 		
-		list.add(24);
-		list.add("Java");
-		System.out.println(list);
+		System.out.println("Addition is "+ (a+b));
 	}
+	public void add(double a, double b) {
+		System.out.println("Subtraction is"+ (b-a));
+	}
+	void add(float a, float b) {
+		System.out.println("multiplication is" +(a*b) );
+	}
+	
+	
+
 
 }
